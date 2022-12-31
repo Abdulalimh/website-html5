@@ -12,8 +12,11 @@
             text-align: center;
             background-color: rgb(215, 240, 240);
             color: brown;
-            
-            
+
+
+        }
+        #pithar-mullo{
+            color: black;
         }
 
         input:hover {
@@ -39,81 +42,158 @@
             padding-top: 10px;
             background-color: rgb(215, 240, 240);
         }
+        table{
+            border-collapse: collapse;
+            width: 350px;
+    
+        }
+
+        td,th {
+            border: 1px solid gray;
+            padding: 2px 15px;
+        }
+        
+        
+       
+        
+        
     </style>
 </head>
 
 <body>
 
+<section><nav>
+    Jamaler Mayer Pithar <br> Dokan
+</nav>
 
-    <h1>
-        Jamaler Mayer Pithar <br> Dokan
-    </h1>
+<form action="">
 
-    <form action="">
+    <p>Name: <input type="" placeholder="Type your name"></p>
+    <p>Email: <input type="" placeholder="Type your Email"></p>
+    <p>Mob..: <input type="" placeholder="Type your Mobile no."></p>
 
-        <p>Name: <input type="" placeholder="Type your name"></p>
-        <p>Email: <input type="" placeholder="Type your Email"></p>
-        <p>Mob..: <input type="" placeholder="Type your Mobile no."></p>
+    <fieldset>
+        <legend>Please Select your product</legend>
 
-        <fieldset>
-            <legend>Please Select your product</legend>
+        <label for="Vapa">
+            <input type="radio" name="Pitha" id="Vapa">Vapa
+        </label>
 
-            <label for="Vapa">
-                <input type="radio" name="Pitha" id="Vapa">Vapa
-            </label>
+        <label for="Chitoy">
+            <input type="radio" name="Pitha" id="Chitoy">Chitoy
+        </label>
 
-            <label for="Chitoy">
-                <input type="radio" name="Pitha" id="Chitoy">Chitoy
-            </label>
+        <label for="Pati Shapta">
+            <input type="radio" name="Pitha" id="Pati Shapta">Pati Shapta
+        </label><br>
 
-            <label for="Pati Shapta">
-                <input type="radio" name="Pitha" id="Pati Shapta">Pati Shapta
-            </label><br>
+        <label for="Bora">
+            <input type="radio" name="Pitha" id="Bora">Bora
+        </label>
+        <label for="Kuli">
+            <input type="radio" name="Pitha" id="Kuli">Kuli
+        </label>
+        <label for="Nokhshi">
+            <input type="radio" name="Pitha" id="Nokhshi">Nokhshi
+        </label><br>
+        <label for="Tele Vaja">
+            <input type="radio" name="Pitha" id="Tele Vaja">Tele Vaja
+        </label>
 
-            <label for="Bora">
-                <input type="radio" name="Pitha" id="Bora">Bora
-            </label>
-            <label for="Kuli">
-                <input type="radio" name="Pitha" id="Kuli">Kuli
-            </label>
-            <label for="Nokhshi">
-                <input type="radio" name="Pitha" id="Nokhshi">Nokhshi
-            </label><br>
-            <label for="Tele Vaja">
-                <input type="radio" name="Pitha" id="Tele Vaja">Tele Vaja
-            </label>
+    </fieldset>
 
-        </fieldset>
+    <fieldset>
+        <legend>Please Select Your Vorta </legend>
 
-        <fieldset>
-            <legend>Please Select Your Vorta </legend>
+        <label for="Shorisha"></label>
+        <input type="checkbox" name="Vorta" id="Shorisha">Shorisha</label>
 
-            <label for="Shorisha"></label>
-            <input type="checkbox" name="Vorta" id="Shorisha">Shorisha</label>
+        <label for="Dhunia"></label>
+        <input type="checkbox" name="Vorta" id="Dhunia">Dhunia</label>
 
-            <label for="Dhunia"></label>
-            <input type="checkbox" name="Vorta" id="Dhunia">Dhunia</label>
+        <label for="Shutki"></label>
+        <input type="checkbox" name="Vorta" id="Shutki">Shutki</label><br>
 
-            <label for="Shutki"></label>
-            <input type="checkbox" name="Vorta" id="Shutki">Shutki</label><br>
+        <label for="Chingri"></label>
+        <input type="checkbox" name="Vorta" id="Chingri">Chingri</label>
 
-            <label for="Chingri"></label>
-            <input type="checkbox" name="Vorta" id="Chingri">Chingri</label>
+        <label for="Sime"></label>
+        <input type="checkbox" name="Vorta" id="Sime">Sime</label><br>
 
-            <label for="Sime"></label>
-            <input type="checkbox" name="Vorta" id="Sime">Sime</label><br>
+        <label for="Laushak"></label>
+        <input type="checkbox" name="Vorta" id="Laushak">Laushak</label>
 
-            <label for="Laushak"></label>
-            <input type="checkbox" name="Vorta" id="Laushak">Laushak</label>
+    </fieldset>
+    <p>Special Instruction</p>
+    <textarea name="Instruction" id="" cols="30" rows="10"></textarea><br>
 
-        </fieldset>
-        <p>Special Instruction</p>
-        <textarea name="Instruction" id="" cols="30" rows="10"></textarea><br>
+    <input class="button" type="submit" value="Submit">
+    <input class="button" type="reset" value="Reset">
 
-        <input class="button" type="submit" value="Submit">
-        <input class="button" type="reset" value="Reset">
+</form></section>
+    
+    <section><table>
+        <thead>
+            <h1 id="pithar-mullo">Pithar Mullo Talika</h1>
+            <tr>
+                <th>No.</th>
+                <th>Pithar Name</th>
+                <th>Poriman</th>
+                <th>Price</th>
+            </tr>
 
-    </form>
+        </thead>
+
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Vapa</td>
+                <td>1 pic</td>
+                <td>15 Tk</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Chitoy</td>
+                <td>1 pic</td>
+                <td>10 Tk</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Pati shapta</td>
+                <td>1 pic</td>
+                <td>15 Tk</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Bora</td>
+                <td>1 pic</td>
+                <td>8 Tk</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Kuli</td>
+                <td>1 pic</td>
+                <td>20 Tk</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Nokhshi</td>
+                <td>1 pic</td>
+                <td>30 Tk</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Tele Vaja</td>
+                <td>1 pic</td>
+                <td>10 Tk</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    
+
 
 
 </body>
