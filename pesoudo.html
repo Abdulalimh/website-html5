@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesudo</title>
+    <style>
+        h1:hover {
+            color: aquamarine;
+            
+        }
+
+        li:nth-child(2n) {
+            color: brown;
+        }
+
+        li:nth-child(2n+1) {
+            color: blue;
+        }
+
+        .ol:nth-child(2n+1) {
+            color: aquamarine;
+        }
+
+        .ol:nth-child(2n) {
+            color: blueviolet;
+        }
+
+        .email {
+            display: inline;
+            margin: 5px;
+        }
+
+        input:hover {
+            padding: 2px 10px;
+            font-size: 20px;
+            color: blue;
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 800;
+            background-color: rgb(152, 233, 152);
+
+        }
+        .stay::before{
+            content: "";
+            background-color: brown;
+            width: 4px;
+            height: 93px;
+            position: absolute;
+            top: 572px;
+            left: 10px;
+        }
+        .stay{
+            padding-left: 10px;
+            font-size: 50px;
+        }
+        span{
+            color: chocolate;
+        }
+        a{
+            text-decoration: none;
+            padding:10px 10px;
+            font-size: 20px;
+            color: blue;
+        }
+        a:hover{
+            color: rgb(158, 94, 16);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="form.html">Form</a>
+        <a href="pesoudo.html">Pesoudo</a>
+        <a href="position.html">Position</a>
+        <a href="table.html">Table</a>
+        <a href="home.html">Home</a>
+
+
+    </header>
+
+
+
+    <h1>আমার নাম আব্দুল আলীম</h1>
+    <ul>
+        <li>আপেল</li>
+        <li>আনারস</li>
+        <li>কমলা</li>
+        <li>আম গাছে</li>
+        <li>তাল গাছ</li>
+        <li>বেদানা</li>
+    </ul>
+    <ol>
+        <li class="ol">Ata gase tota pakhi</li>
+        <li class="ol">Dalim gase mou</li>
+        <li class="ol">Eto daki tobu keno</li>
+        <li class="ol">Kotha kouna bou</li>
+        <li class="ol">Kotha kouna bou</li>
+        <li class="ol">Kotha kouna bou</li>
+        <li class="ol">Ay re ay tiye</li>
+        <li class="ol">Nay vora diye </li>
+        <li class="ol">Na niye gese boyal mase</li>
+        <li class="ol">Tai na dekhe bodor nase</li>
+        <li class="ol">Ore bodor fire cha</li>
+        <li class="ol">Khokar nachon dekhe ja</li>
+
+    </ol>
+    <p class="email">Email : <input type="email" name="Email" id="email"></p>
+
+    <p class="email">Password : <input type="password" name="Password" id="Password"></p>
+
+    <input type="checkbox" name="checkbox" id="checkbox">
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset"><br>
+
+    <input type="time" name="Time" id="time">
+
+    <input type="button" value="Save">
+
+<h1 class="stay">
+  Stay  Mission <br> 
+  <span >Moon 2023</span>
+</h1p>
+</body>
+
+</html>

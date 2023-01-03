@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .swiming div {
+
+            width: 200px;
+        }
+
+        .swiming {
+            position: absolute;
+        }
+
+        .image {
+            width: 150px;
+            height: 150px;
+        }
+
+        #ring {
+            position: relative;
+            left: 0px;
+            z-index: 1;
+            top: 30px;
+
+
+        }
+
+        #boy {
+            position: relative;
+            top: 165px;
+            z-index: 2;
+            right: 13px;
+        }
+
+        #water {
+            position: relative;
+            top: -110px;
+        }
+        a:hover{
+            color: coral;
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            padding: 10px 10px;
+            color: blue;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="form.html">Form</a>
+        <a href="pesoudo.html">Pesoudo</a>
+        <a href="position.html">Position</a>
+        <a href="table.html">Table</a>
+        <a href="home.html">Home</a>
+
+    </header>
+
+
+    <section>
+        <h1>This is my header</h1>
+        <h1>I am a learning position</h1>
+        <h1>I am a higher position</h1>
+
+    </section>
+
+
+    <section class="swiming">
+        <div id="boy"><img class="image" src="images/boy.png" alt=""></div>
+        <div id="ring"><img img class="image" src="images/ring.png" alt=""></div>
+        <div id="water"><img img class="image" src="images/water.png" alt=""></div>
+    </section>
+
+</body>
+
+</html>
